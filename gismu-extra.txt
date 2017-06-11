@@ -1,0 +1,4 @@
+ nunmu              non-binary                                x1 is a non-binary person                                                                        -         (cf. remna, nanmu, ninmu, prenu, paznu, pentu, preri, vepre)
+ pentu              non-binary sibling                        x1 is a non-binary sibling of x2                                                                 -         (cf. tunba, tixnu, bersa, paznu, pentu, preri, vepre)
+ preri              non-binary parent                         x1 is a non-binary parent of x2                                                                  -         (cf. rirni, mamta, patfu)
+ vepre              enby                                      x1 is an enby (young non-binary person)                                                          -         (cf. verba, nanla, nixli, paznu, pentu, preri, vepre)

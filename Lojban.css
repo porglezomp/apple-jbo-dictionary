@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+entry {
+}
+
+* { font-family: -apple-system; }
+
+body {
+    margin-left: 11pt;
+    margin-top: 15pt;
+}
+
+div {
+    font-size: 10pt;
+}
+
+h1	{
+    font-size: 17pt;
+    font-weight: normal;
+    margin-bottom: 10pt;
+}
+
+h2	{
+	  font-size: 12pt;
+    font-weight: normal;
+    margin-bottom: 5pt;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 11pt;
+    display: inline;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+span.form {
+    font-size: 90%;
+    font-weight: normal;
+    font-style: italic;
+}
+
+div.cmavo, div.gismu, div.rafsi {
+    margin-left: 1em;
+}
+
+ul.rafsi {
+    display: inline-block;
+    margin-left: 0.2em;
+    padding: 0;
+    list-style: none;
+    font-style: italic;
+}
+
+ul.rafsi:before { content: "("; }
+ul.rafsi:after { content: ")"; }
+
+
+ul.rafsi > li {
+    display: inline-block;
+}
+
+ul.rafsi > li:not(:first-child):before {
+    content: ", ";
+}
