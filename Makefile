@@ -35,8 +35,8 @@ RM			= /bin/rm
 
 ###########################
 
-$(DICT_SRC_PATH): parser.py
-	python3 parser.py > $@
+$(DICT_SRC_PATH): generate.py jbovlaste.xml
+	python3 generate.py > $@
 
 
 all: $(DICT_SRC_PATH)
