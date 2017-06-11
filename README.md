@@ -25,4 +25,10 @@ make install
 ```
 
 The dictionary will not reload if Dictionary.app is still open, so close it before running make install.
-My preferred
+My preferred workflow is to run
+
+```
+make all && make install && open /Applications/Dictionary.app
+```
+
+and then close Dictionary.app while the dictionary compile is running.
